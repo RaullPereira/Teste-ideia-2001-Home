@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif,;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E5E5;
+}
+
+
+.box-idioma {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 12px;
+    position: absolute;
+    width: 121.33px;
+    height: 34px;
+    left: 15px;
+    top: 15px;
+    background: #FFFFFF;
+    border-radius: 50px;
+}
+
+.box-idioma img {
+    margin-left: 6px;
+}
+
+.box-idioma p {
+    color: #444242;
+    line-height: 14px;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Roboto";
+    line-height: 14px;
+    text-align: center;
+    margin: 2px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.container {
+    position: relative;
+    width: 360px;
+    height: 640px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #444242;
+}
+
+.logo-img {
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 240.52px;
+    height: 75px;
+    left: 40px;
+    top: 107px
+}
+
+.menu-button {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 300px;
+    padding: 0px;
+    display: flex;
+    width: 26px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.button-group button {
+    font-family: "Roboto";
+}
+
+.button-group img {
+margin-right: 8px;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0px;
+    position: absolute;
+    width: 265px;
+    height: 370px;
+    left: 50px;
+    top: 127px;
+}
+
+.btn-buscar-produtos button {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 0px;
+    cursor: pointer;
+
+    width: 265px;
+    height: 50px;
+
+    background: #FA9401;
+    border-radius: 50px;
+    border: none;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0
+}
+
+.btn-lancamentos button {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 8px 0px;
+    cursor: pointer;
+
+    width: 265px;
+    height: 50px;
+
+    background: #444242 ;
+    border-radius: 50px;
+    border: 1px solid #FA9401;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0
+}
+
+.btn-carrinho button {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 8px 0px;
+    cursor: pointer;
+
+    width: 265px;
+    height: 50px;
+
+    background: #444242;
+    border-radius: 50px;
+    border: 1px solid #FA9401;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0
+}
+
+.btn-contato button{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 0px;
+    padding: 0px;
+    cursor: pointer;
+    width: 265px;
+    height: 50px;
+
+    background: #444242;
+    border-radius: 50px;
+    border: 1px solid #FA9401;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    gap: 8px;
+    width: 360px;
+    height: 64px;
+    left: 0px;
+    top: 576px;
+    cursor: pointer;
+}
+
