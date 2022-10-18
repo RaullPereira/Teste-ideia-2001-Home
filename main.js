@@ -2,7 +2,7 @@
 var button = document.querySelector(".btn-contato");
 
 button.onclick = function() {
-    window.location.href = "https://tela-redefinir-senha.vercel.app/";
+    window.location.href = "https://raullpereira.github.io/Teste-ideia-2001-Contato/";
 }
 
 //SITE//
@@ -12,7 +12,7 @@ button.onclick = function() {
     window.location.href = "https://ideia2001.com.br";
 }
 
-//FACEBOO//
+//FACEBOOk//
 var button = document.querySelector(".img-face");
 
 button.onclick = function() {
