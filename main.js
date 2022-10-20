@@ -1,4 +1,4 @@
-
+//CONTATO//
 var button = document.querySelector(".btn-contato");
 
 button.onclick = function() {
